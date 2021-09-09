@@ -1,4 +1,4 @@
-# Dapp project idea - decentralized staking
+# Dapp project idea - decentralized staking with dynamic NFT
 
 ## Creating a staking app
 
