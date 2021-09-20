@@ -1,0 +1,130 @@
+{
+    "contracts": {
+        "/Users/gregplumbly/Dev/blockchain-developer-bootcamp-final-project/contracts/Staker.sol": {
+            "Staker": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "payable": false,
+                        "stateMutability": "nonpayable",
+                        "type": "constructor"
+                    }
+                ],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582000664d440996800abd85072290e991ddf16c6f622334d29aae9d436fef8b6fd264736f6c63430005100032",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 STOP PUSH7 0x4D440996800ABD DUP6 SMOD 0x22 SWAP1 0xE9 SWAP2 0xDD CALL PUSH13 0x6F622334D29AAE9D436FEF8B6F 0xD2 PUSH5 0x736F6C6343 STOP SDIV LT STOP ORIGIN ",
+                        "sourceMap": "66:48:0:-;;;86:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;86:26:0;66:48;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052600080fdfea265627a7a7231582000664d440996800abd85072290e991ddf16c6f622334d29aae9d436fef8b6fd264736f6c63430005100032",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 STOP PUSH7 0x4D440996800ABD DUP6 SMOD 0x22 SWAP1 0xE9 SWAP2 0xDD CALL PUSH13 0x6F622334D29AAE9D436FEF8B6F 0xD2 PUSH5 0x736F6C6343 STOP SDIV LT STOP ORIGIN ",
+                        "sourceMap": "66:48:0:-;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "12400",
+                            "executionCost": "66",
+                            "totalCost": "12466"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/gregplumbly/Dev/blockchain-developer-bootcamp-final-project/contracts/Staker.sol\":\"Staker\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/gregplumbly/Dev/blockchain-developer-bootcamp-final-project/contracts/Staker.sol\":{\"keccak256\":\"0xaf6f8a3e97964cc09b8580b66f9c8cdb86bfecbf9c1ce57cc2fa9b62af795e4f\",\"urls\":[\"bzz-raw://6329df77dcbda470a822250809445d29a063c23b84bbff17b795cc0e8749b970\",\"dweb:/ipfs/QmQ9nQu9Q8rHwoWgncPRZkHsSjnT594fK54CaY7JwXLZMS\"]}},\"version\":1}",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "/Users/gregplumbly/Dev/blockchain-developer-bootcamp-final-project/contracts/Staker.sol": {
+            "ast": {
+                "absolutePath": "/Users/gregplumbly/Dev/blockchain-developer-bootcamp-final-project/contracts/Staker.sol",
+                "exportedSymbols": {
+                    "Staker": [
+                        6
+                    ]
+                },
+                "id": 7,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            ">=",
+                            "0.4",
+                            ".22",
+                            "<",
+                            "0.9",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "32:32:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 6,
+                        "linearizedBaseContracts": [
+                            6
+                        ],
+                        "name": "Staker",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "body": {
+                                    "id": 4,
+                                    "nodeType": "Block",
+                                    "src": "107:5:0",
+                                    "statements": []
+                                },
+                                "documentation": null,
+                                "id": 5,
+                                "implemented": true,
+                                "kind": "constructor",
+                                "modifiers": [],
+                                "name": "",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 2,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "97:2:0"
+                                },
+                                "returnParameters": {
+                                    "id": 3,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "107:0:0"
+                                },
+                                "scope": 6,
+                                "src": "86:26:0",
+                                "stateMutability": "nonpayable",
+                                "superFunction": null,
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 7,
+                        "src": "66:48:0"
+                    }
+                ],
+                "src": "32:83:0"
+            },
+            "id": 0
+        }
+    }
+}
